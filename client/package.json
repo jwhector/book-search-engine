@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jwhector.github.io/book-search-engine/",
+  "homepage": "https://jh-book-search-engine.herokuapp.com/",
   "name": "client",
   "version": "0.1.0",
   "private": true,
