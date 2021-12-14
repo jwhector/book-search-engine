@@ -33,10 +33,10 @@ const startServer = async () => {
   app.use(express.json());
   
   // if we're in production, serve client/build as static assets
-  if (process.env.NODE_ENV === 'production') {
+  // if (process.env.NODE_ENV === 'production') {
     console.log(path.join(__dirname, '../client/build'));
     app.use(express.static(path.join(__dirname, '../client/build')));
-  }
+  // }
     
   app.use(routes);
 
